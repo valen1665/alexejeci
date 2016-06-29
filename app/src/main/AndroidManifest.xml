@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobilelab5.alexejeci">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity1" />
+        <activity android:name=".viewSeleccinable"></activity>
+        <activity android:name=".GridViewActivity" />
+        <activity android:name=".entidad.Activity_Pantallla2">
+            />
+        </activity>
+        <activity android:name=".entidad.Activity_Pantalla1" />
+        <activity android:name=".entidad.Activity_pantalla3" />
+        <activity android:name=".Activity_camara" />
+        <activity android:name=".View_Selected">
+
+        </activity>
+        <activity android:name=".View_selectedtres"><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+    </application>
+
+</manifest>

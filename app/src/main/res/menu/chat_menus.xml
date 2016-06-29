@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+
+    <item android:id="@+id/favoritos"
+        android:title="favoritos"
+        android:icon="@android:drawable/btn_star_big_off"
+        android:orderInCategory="4" android:menuCategory="container"
+        app:showAsAction="ifRoom"
+
+        />
+    <item android:id="@+id/buscar"
+        android:title="buscar"
+      android:icon="@android:drawable/button_onoff_indicator_off"
+        android:orderInCategory="2" android:menuCategory="container"
+        app:showAsAction="ifRoom"
+
+        />
+    <item android:id="@+id/agregar"
+        android:title="amigos"
+        android:icon="@android:drawable/checkbox_on_background"
+        android:orderInCategory="3" android:menuCategory="container"
+        app:showAsAction="never"
+
+        />
+
+    <item android:id="@+id/actualizar"
+        android:title="amigos"
+        android:icon="@android:drawable/ic_delete"
+        android:orderInCategory="2" android:menuCategory="container"
+        app:showAsAction="ifRoom"
+
+        />
+    <item android:id="@+id/submenu"
+        android:title="submenu">
+        <menu>
+
+            <item
+                android:title="amigos"
+                android:icon="@android:drawable/ic_delete"
+                android:orderInCategory="2" android:menuCategory="container"
+                app:showAsAction="ifRoom"/>
+
+
+
+        </menu>
+    </item>
+
+
+</menu>

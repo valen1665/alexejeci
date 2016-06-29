@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="peliculas">
+        <item>Soy Leyenda</item>
+        <item>Quinta ola</item>
+        <item>Batman</item>
+        <item>robocoop</item>
+        <item>robocoop2</item>
+        <item>la Isla</item>
+        <item>robocoop</item>
+    </array>
+</resources>
